@@ -1,15 +1,11 @@
 package koschei.models;
 
-import lombok.Data;
+import lombok.AllArgsConstructor;
 
-@Data
+@AllArgsConstructor
 public class Island2 {
 
     private Wood3 wood;
-
-    public Island2(Wood3 wood) {
-        this.wood = wood;
-    }
 
     @Override
     public String toString() {

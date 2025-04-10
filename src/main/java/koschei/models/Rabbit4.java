@@ -1,19 +1,13 @@
 package koschei.models;
 
-import lombok.Data;
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 
 @Component
-@Data
+@AllArgsConstructor
 public class Rabbit4 {
 
-    @Autowired
     private Duck5 duck;
-
-    public Rabbit4(Duck5 duck) {
-        this.duck = duck;
-    }
 
     @Override
     public String toString() {
