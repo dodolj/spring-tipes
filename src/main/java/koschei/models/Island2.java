@@ -1,5 +1,8 @@
 package koschei.models;
 
+import lombok.Data;
+
+@Data
 public class Island2 {
 
     private Wood3 wood;
