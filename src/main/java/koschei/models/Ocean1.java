@@ -1,12 +1,12 @@
 package koschei.models;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 
 @Component
+@AllArgsConstructor
 public class Ocean1 {
 
-    @Autowired
     private Island2 island;
 
     @Override
